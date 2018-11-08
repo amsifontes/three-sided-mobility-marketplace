@@ -1,1 +1,1 @@
-web: gunicorn foodtasker.wsgi --log-file - 
+web: gunicorn foodtasker.wsgi --pythonpath foodtasker --log-file - 
